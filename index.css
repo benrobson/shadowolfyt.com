@@ -1,0 +1,19 @@
+/* Overall */
+
+body {
+	background-color: indianred;
+}
+
+.errortext {
+  	position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+	font-family: Tahoma;
+	text-align: center;
+]
+	
