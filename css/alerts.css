@@ -1,0 +1,23 @@
+/* CSS Document */
+
+/* Alert Assets */
+.alert-green {
+	padding: 10px;
+	background-color: #55db8f;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.alert-yellow {
+	padding: 10px;
+	background-color: #e4f95c;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.alert-red {
+	padding: 10px;
+	background-color: #f78571;
+	border-radius: 5px;
+	text-align: center;
+}
