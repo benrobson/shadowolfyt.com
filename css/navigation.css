@@ -6,6 +6,10 @@
 	padding: 20px;
 }
 
+.sidenav img {
+	padding-right: 10px;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
