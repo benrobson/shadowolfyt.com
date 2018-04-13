@@ -24,7 +24,8 @@
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+	margin-left: 25px;
+    padding: 3px;
     text-decoration: none;
 	color: #818181;
     display: block;
@@ -33,7 +34,7 @@
 }
 
 .sidenav h3 {
-    padding: 8px 8px 8px 8px;
+	margin-left: 15px;
     text-decoration: none;
 	color: #818181;
     display: block;
