@@ -1,0 +1,23 @@
+/* CSS Document */
+
+.header {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	height: 150px;
+}
+
+.header h1 {
+	padding-left: 50px;
+}
+
+.botprofileimage {
+	float: left;
+	border-radius: 100px 100px;
+}
+
+.docscontainer {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+}

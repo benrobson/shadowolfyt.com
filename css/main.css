@@ -25,7 +25,9 @@
 }
 
 .profile-picture {
+	float: left;
 	border-radius: 100px 100px;
+	padding: 20px;
 }
 
 /* 404 Page Assets */
