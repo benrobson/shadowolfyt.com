@@ -6,10 +6,10 @@
 	<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
 	<link href="../../css/main.css" rel="stylesheet" type="text/css">
 	<link href="../../css/docs.css" rel="stylesheet" type="text/css">
-	<link href="../../css/accordion.css" rel="stylesheet" type="text/css">
 	<link href="../../css/alerts.css" rel="stylesheet" type="text/css">
+	<link href="../../css/tablist.css" rel="stylesheet" type="text/css">
+	<script src="../../js/tablist.js"></script>
 	<script src="../../js/alerts.js"></script>
-	<script src="../../js/accordion.js"></script>
 </head>
 
 <body background="../../img/background.png">
@@ -21,19 +21,25 @@
 		<br>
 		<div class="docscontainer">
 			
-			<button class="accordion">Section 1</button>
-			<div class="panel">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<div class="tab">
+			  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+			  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+			  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 			</div>
 
-			<button class="accordion">Section 2</button>
-			<div class="panel">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<div id="London" class="tabcontent">
+			  <h3>London</h3>
+			  <p>London is the capital city of England.</p>
 			</div>
 
-			<button class="accordion">Section 3</button>
-			<div class="panel">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<div id="Paris" class="tabcontent">
+			  <h3>Paris</h3>
+			  <p>Paris is the capital of France.</p> 
+			</div>
+
+			<div id="Tokyo" class="tabcontent">
+			  <h3>Tokyo</h3>
+			  <p>Tokyo is the capital of Japan.</p>
 			</div>
 			
 		</div>
