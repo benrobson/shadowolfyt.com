@@ -11,4 +11,4 @@ gif = [
 	
 window.onload = function(){
 x = Math.floor(Math.random()*gif.length); 
-	document.getElementById("404gifimg").src = gif[x][0]};
+	document.getElementById("invalidpagegif").src = gif[x][0]};
