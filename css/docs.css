@@ -2,13 +2,18 @@
 
 .header {
 	background-color: white;
-	border-radius: 5px;
+	border-radius: 6px;
 	padding: 10px;
-	height: 150px;
+	height: 120px;
+}
+
+.backtohome {
+	float: right;
 }
 
 .header h1 {
-	padding-left: 50px;
+	padding-top: 20px;
+	padding-left: 140px;
 }
 
 .botprofileimage {
@@ -17,7 +22,32 @@
 }
 
 .docscontainer {
-	background-color: white;
+	max-width: 570px;
 	border-radius: 5px;
 	padding: 10px;
+	float: right;
+}
+
+.module {
+	background-color: white;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+.module h2 {
+	line-height: 1px;
+}
+
+.tableofcontents {
+	min-width: 250px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	float: left;
+}
+
+.tableofcontents ul {
+	list-style-type: none;
+	padding-left: 1px;
+	line-height: 22px;
 }
