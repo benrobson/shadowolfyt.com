@@ -1,0 +1,37 @@
+/* CSS Document */
+
+.header {
+	background-color: white;
+	border-radius: 6px;
+	padding: 10px;
+	height: 120px;
+}
+
+.backtohome {
+	float: right;
+}
+
+.header h2 {
+	padding-top: 25px;
+	padding-left: 140px;
+}
+
+.guideimage {
+	float: left;
+	border-radius: 100px 100px;
+}
+
+.guidecontainer {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.module {
+	background-color: white;
+	border-radius: 5px;
+	padding: 18px;
+}
+
+.module h2 {
+	line-height: 1px;
+}
